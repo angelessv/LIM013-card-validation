@@ -1,17 +1,17 @@
 #Encabezado{
-    height: 250px;
+    height: 30%;
     background: #FFC3EC; 
     }
     
  section{
-   background-color: rgb(240, 254, 255);
-   height:600px;
+    background: rgb(215, 243, 245);
+    height: 60%;
  }
  
  footer{
-   background-color: #ECD8FA;
-   height: 100px;
-   text-align: center;
+    background-color: #ECD8FA;
+    height: 10%;
+    text-align: center;
  
  }
  
@@ -26,9 +26,14 @@
    color: rebeccapurple;
    background: honeydew;
    padding: 10px;
-   margin-left: 40%;
+   margin-left: 50%;
    border: 1px;
-   position: relative;
-   align-items: flex-end;
+   position: center ;
+   align-items: flex-start ;
  
  }
+ #logoempresa{
+    padding-inline-start: 5%;
+    width: 20%; 
+    height: 100%;
+}
