@@ -1,0 +1,34 @@
+#Encabezado{
+    height: 250px;
+    background: #FFC3EC; 
+    }
+    
+ section{
+   background-color: rgb(240, 254, 255);
+   height:600px;
+ }
+ 
+ footer{
+   background-color: #ECD8FA;
+   height: 100px;
+   text-align: center;
+ 
+ }
+ 
+ p50{
+   font-family: cursive;
+   font-size: 100%;
+   color: white;
+ 
+ }
+ 
+ #botondebusqueda{
+   color: rebeccapurple;
+   background: honeydew;
+   padding: 10px;
+   margin-left: 40%;
+   border: 1px;
+   position: relative;
+   align-items: flex-end;
+ 
+ }
