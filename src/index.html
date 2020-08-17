@@ -1,29 +1,246 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-    
-  </head>
-  <body>
-    <header id="Encabezado">
-      <img name="logo" id="logoempresa" src="https://i.ibb.co/pb7TVtY/logoempresa.png">
-    
-      <form action="search.php" method="get">
-      
-      <input type="search" name="botondebusqueda" id="botondebusqueda" placeholder="Buscar" required="required">
-      
-      <button type="comenzarbusqueda" id="comenzarbusqueda">Buscar</button>
-      
 
-      </form>
-      </header>
-      <section>
-        <p>PASO 3</p>
-      </section>
-    <main></main>
-    <footer> <p50>Copyright 2020, NOMBRE DE EMPRESA </p50></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <header id="Encabezado">
+    <img name="logo" id="logoempresa" src="https://i.ibb.co/xYKWSSw/LOGO.png" >
+
+    <label action="search.php" method="get" id="barradebusqueda"></label>
+      <input type="search" name="botondebusqueda" id="botondebusqueda" placeholder="Busca en nuestro catalogo" required="required">
+      <button type="comenzarbusqueda" id="comenzarbusqueda">Buscar</button>
+      <div class="container" id="franja">
+        <div class="nosotros" id="nosotros">Nosotros</div>
+        <div class="productos" id="productos">Productos</div>
+        <div class="ofertas" id="ofertas">Ofertas</div>
+        <div class="talleres" id="talleres">Talleres</div>
+        <div class="blog" id="blog">Blog</div>
+      </div>
+
+
+  </header>
+
+  <main>
+    <section >
+       
+      <div class="grupo" >
+        <form name="formulario1" id="formulario1" method="post" class="formulario1">
+          <div class="titulos">
+          <label for="name" id="paso1">Paso1</label>
+          <img src="https://i.ibb.co/x5TCkV6/linea.png" class="linea1">
+          <label for="name" class="pasos">Paso2</label>
+          <img src="https://i.ibb.co/x5TCkV6/linea.png"  class="linea1">
+          <label for="name" class="pasos">Paso3</label>
+          </div>
+          <div>
+          <div class="grupo" name="grupo1" >
+            <label for="name" class="iniciaregistra" >Inicia sesion</label>
+          </div>
+          <div class="grupo" name="grupo1" >
+            <input type="email"  class="barra1" placeholder="Correo Electronico" required>
+          </div>
+          <div class="grupo" name="grupo1" >
+            <input type="password" id="contraseña" placeholder="Contraseña" class="barra1" required >
+          </div>
+          <div>
+            <button type="submit" class="boton1" name="Continuar" id="sesion" >Iniciar</button>
+          </div>
+          </div>
+          <div class="grupo" name="grupo1" >
+            <img src="https://i.ibb.co/x5TCkV6/linea.png"  class="linea">
+            <label for="name" id="o">O</label>
+            <img src="https://i.ibb.co/x5TCkV6/linea.png"  class="linea">
+          </div>
+          <div>
+          <div class="grupo" name="grupo1" >
+            <label for="name" class="iniciaregistra" >Registrate</label>
+          </div>
+          <div class="grupo" name="grupo1" >
+            <input type="email" id="Correo1" placeholder="Correo electronico" class="barra1" autocomplete="off" required>
+          </div>
+          <div class="grupo" name="grupo1" >
+            <input type="text"  name="contraseña" placeholder="Contraseña: min: 6 caracteres" class="barra1" autocomplete="off" required>
+          </div>
+          <div class="grupo" name="grupo1" >
+            <input type="text"  id="nombre1" placeholder="Nombre" class="barra1" autocomplete="off" required>
+          </div>
+          <div class="grupo" name="grupo1" >
+            <input type="text"  name="Apellido" placeholder="Apellidos" class="barra1" autocomplete="off" required>
+          </div>
+          <div class="botones" >
+            <button type="submit" class="boton1" name="Continuar" id="siguiente2" >Continuar</button>
+          </div>
+          </div>
+          </form>
+      </div>
+          
+      
+      <div class="grupo" id="prueba1">
+        <form name="formulario2" id="formulario2" method="post" class="formulario2">
+          <div class="titulos">
+          <label for="name" class="pasos">Paso1</label>
+          <img src="https://i.ibb.co/x5TCkV6/linea.png"  class="linea1">
+          <label for="name" id="paso2">Paso 2</label>
+          <img src="https://i.ibb.co/x5TCkV6/linea.png"  class="linea1">
+          <label for="name" class="pasos">Paso3</label>
+          </div>
+          <div>
+            <label for="name"  id="envio">Datos de envio</label>
+          </div>
+          <div class="grupo" name="grupo2" >
+            <label for="name" class="solucituddedatos" >Departamento</label>
+            <input type="text" id="Departamento" name="Departamento" class="barra" autocomplete="off" required>
+          </div>
+          <div class="grupo" name="grupo2">
+            <label for="name" class="solucituddedatos">Provincia</label>
+            <input type="text" id="Provincia" name="datos2" class="barra" autocomplete="off"  required>
+          </div>
+          <div class="grupo" name="grupo2">
+            <label for="name" class="solucituddedatos">Distrito</label>
+            <input type="text" id="Distrito" name="datos2"  class="barra" autocomplete="off" required>
+          </div>
+          <div class="grupo" name="grupo2">
+            <label for="name" class="solucituddedatos">Dirección</label>
+            <input type="text" id="direccion" name="datos2" class="barra" autocomplete="off" required>
+          </div>
+          <div class="grupo" name="grupo2">
+            <label for="name" class="solucituddedatos">Puedes darnos una referencia</label>
+            <input type="text" id="referencia" name="datos2" class="barra" autocomplete="off" required>
+          </div>
+          <div class="grupo" name="grupo2">
+            <label for="name" class="solucituddedatos" >Telofono de contacto</label>
+            <input type="text" id="telefono" name="datos2" class="barra" autocomplete="off" required maxlength="9">
+          </div>
+          <div >
+            <label type="text" id="mensajealert"></label>
+          </div>
+          <div class="botones"  >
+            <button type="submit" class="boton" name="Continuar" id="siguiente3" >Continuar</button>
+          </div>
+        </form>
+      </div>
+      
+      
+      
+        <img src="https://i.ibb.co/G3GMLTF/imagentarjeta-corte.png" id="tarjetaimagen">
+     
+      <div class="grupo" id="prueba2">
+        <form name="formulario" id="formulario" method="post" class="formulario">
+          <div class="titulos">
+          <label for="name" class="pasos">Paso 1</label>
+          <img src="https://i.ibb.co/x5TCkV6/linea.png"  class="linea1">
+          <label for="name" class="pasos">Paso 2</label>
+          <img src="https://i.ibb.co/x5TCkV6/linea.png"  class="linea1">
+          <label for="name" id="paso3">Paso 3</label>
+          </div>
+          <div>
+            <label for="name" id="titular" >Datos de titular de la tarjeta</label>
+          </div>
+          <div class="grupo" id="gruponombre">
+            <label for="name" id="nombrecliente" class="solucituddedatos">Nombre (s):</label>
+            <input type="text" id="nombre" class="barra"  autocomplete="off" required>
+          </div>
+
+          <div class="grupo">
+            <label for="name" class="solucituddedatos" >Apellidos:</label>
+            <input type="text" id="Apellido" name="Apellido" class="barra" autocomplete="off" required>
+          </div>
+
+          <div class="grupo">
+            <label for="name" id="numero de tarjeta" class="solucituddedatos">Número de Tarjeta</label>
+            <input type="text" id="Tarjeta" mode="numeric" class="barra" autocomplete="off"  placeholder=".... .... .... ..... " maxlength="19"
+              name="user_name" required>
+          </div>
+
+          <div class="flexbox">
+
+            <div class="expiración" id="vence">
+              <label for="selectMes" class="solucituddedatos" id="vencimientodetarjeta" >Vence</label>
+                <div class="grupo-select" >
+
+                  <select name="mes" id="selectMes" required >
+                    <option value="0">Mes</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="8">7</option>
+                    <option value="9">8</option>
+                    <option value="10">9</option>
+                    <option value="11">10</option>
+                    <option value="12">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+
+                  <select name="year" id="selecteyear" required >
+                    <option value="0">Año</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                  </select>
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+              
+            </div>
+            <div class="grupocvv" id="control">
+              <label for="cvv" class="solucituddedatos">CVV</label>
+              <input type="text" id="cvv" maxlength="3" class="barra" required>
+            </div>
+          </div>
+          <div >
+            <label type="text" id="mensajealert1"></label>
+          </div>
+          <div >
+            <label type="text" id="tarjetainvalida"></label>
+          </div>
+          <div  id="boton">
+            <button type="submit" class="boton" name="pagar" id="pagar">PAGAR</button>
+          </div>
+
+        </form>
+
+      </div>
+
+      <div class="exitosa" id="compraexitosa">
+      <div >
+        <label class="final" id="mensaje1"></label>
+      </div>
+      <div >
+        <label class="final" id="mensaje2"></label>
+      </div>
+      <div >
+        <label class="final" id="mensaje3"></label>
+      </div>
+      <div >
+        <label class="final"  id="mensaje4"></label>
+      </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="redes" id="redes">
+        <img src="https://i.ibb.co/4m8vvW0/facebook.png" id="facebook">
+        <img src="https://i.ibb.co/p46hVn6/insta.png" id="instagram">
+        <img src="https://i.ibb.co/nskB9qY/whatsapp.png" id="whatsapp">
+      </div>
+    </div>
+    <p50>Copyright 2020, Una tajadita de felicidad LA TIENDA </p50>
+  </footer>
+  <script src="index.js" type="module" ></script>
+</body>
+
 </html>

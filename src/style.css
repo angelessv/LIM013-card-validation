@@ -1,20 +1,372 @@
-#Encabezado{
-    height: 30%;
-    background: #FFC3EC; 
-    }
-    
+header{
+    height: 180px;
+    background-color: #ffd5e5;
+
+   }   
  section{
-    background: rgb(215, 243, 245);
-    height: 60%;
+    height: 680px;
+    background-image: url("https://i.ibb.co/7QTYH0t/fondopaginaprin.jpg");
+    background-size: 1500px;
+
+   
  }
- 
  footer{
-    background-color: #ECD8FA;
-    height: 10%;
+    background-color: #a5dee5;
+    height: 100px;
     text-align: center;
+    background-size: 1500px;
  
  }
+ #logoempresa{
+   margin-left: 20px;
+   margin-top: 20px;
+    width: 150px; 
+    height: 150px;
+    border-radius: 150px;
+ }
+ #botondebusqueda{
+   color: rebeccapurple;
+   background: honeydew;
+   padding: 10px;
+   border: 0px;
+   border-radius: 10px;
+   width: 300px;
+   margin: 50px;
+   margin-left: 200px;
+   position: absolute;
+   height: 40px;
+ }
+ #comenzarbusqueda{
+    color: rgb(92, 16, 75);
+    background-color: #FFFFFF;
+    position: absolute;
+    margin: 55px;
+    margin-left: 530px;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    border: 0px;
+
+ }
+
+ /*menu de encabezado*/
+
+ #nosotros{
+   background-color: #05dfd7;
+   height: 40px;
+   width: 120px;
+   position: absolute;
+   margin-left: 300px;
+   margin-top: -50px;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+   color: white;
+   border-radius: 8px;
+
+ }
+
+ #productos{
+   background-color: #05dfd7;
+   height: 40px;
+   width: 130px;
+   position: absolute;
+   margin-left: 430px;
+   margin-top: -50px;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+   color: white;
+   border-radius: 8px;
+ }
+ #ofertas{
+   background-color: #05dfd7;
+   height: 40px;
+   width: 120px;
+   position: absolute;
+   margin-left: 570px;
+   margin-top: -50px;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+   color: white;
+   border-radius: 8px;
+ }
+ #talleres{
+   background-color: #05dfd7;
+   height: 40px;
+   width: 120px;
+   position: absolute;
+   margin-left: 700px;
+   margin-top: -50px;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+   color: white;
+   border-radius: 8px;
+ }
+#blog{
+   background-color: #05dfd7;
+   height: 40px;
+   width: 120px;
+   position: absolute;
+   margin-left: 830px;
+   margin-top: -50px;
+   text-align: center;
+   font-size: 30px;
+   font-style: italic;
+   color: white;
+   border-radius: 8px;
+}
+/* pasos*/
+.titulos{
+   display: flex;
+   justify-content: space-between ;
+   margin: 8px;
+}
+.pasos{
+   font-size: 35px;
+   color: #b4b4b4;
+}
+.linea1{
+   height: 15px;
+   margin-top: 15px;
+}
+#paso1{
+   font-size: 35px;
+   color: #6f4a8e;
+   width: 20%;
+
+}
+#paso2{
+   font-size: 35px;
+   color: #6f4a8e;
+   width: 20%;
+
+}
+#paso3{
+   font-size: 35px;
+   color: #6f4a8e;
+   width: 20%;
+}
+
+/* */
+#envio{
+   font-size: 25px;
+}
+#titular{
+   font-size: 25px;
+   
+
+}
+.grupo{
+   display: flex;
+   justify-content: space-between;
+}
+.solucituddedatos{
+   padding: 0px;
+   width: 35%;
+   margin-left: 20px;
+   font-size: 17px;
+   
+}
+.linea{
+   height: 50px;
+}
+.iniciaregistra{
+   margin-left: 40%;
+   font-size: 25px;
+}
+.barra1{
+   padding: 5px;
+   background-color: ivory;
+   width: 70%;
+   height: 26px;
+   border: 0px;
+   border-radius: 10px;
+   margin: 5px;
+   margin-left: 60px;
+   outline: none;
+   
+}
+.barra{
+   padding: 5px;
+   background-color: ivory;
+   width: 60%;
+   height: 26px;
+   border: 0px;
+   border-radius: 10px;
+   outline: none;
+}
+.flexbox{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-direction: row;
+}
+.expiración{
+   display: flex;
+   justify-content: flex-start;
+   width: 70%;
+}
+.grupocvv{
+   width: 30%
+
+}
+
+/*formalarios*/
+#formulario1{
+   background-color: #beebe9;
+   width: 450px ;
+   height: 580px;
+   padding: 20px;
+   position: absolute;
+   margin-left: 60%;
+   border-radius: 10px;
+   line-height: 40px;
+   margin-top: 20px;
+   
+}
+
+#formulario2 {
+   background-color: #beebe9;
+   width: 600px ;
+   height: 430px;
+   padding: 20px;
+   position: absolute;
+   margin-left: 5%;
+   border-radius: 10px;
+   line-height: 40px;
+   margin-top: 40px;
+   display: none;
+}
+
+#formulario{
+   background-color: #beebe9;
+   width: 600px ;
+   height: 400px;
+   padding: 20px;
+   position: absolute;
+   margin-left: 5%;
+   border-radius: 10px;
+   line-height: 40px;
+   margin-top: 40px;
+   display: none;
+}
+#compraexitosa{
+   background-color: #ffffff;
+   position: absolute;
+   width: 700px;
+   height: 500px;
+   margin-left:27%;
+   margin-top: 3%;
+   border-radius: 15px;
+   display: none;
+}
+.boton1{
+   border: 0px;
+   background-color: #f6eec7;
+   font-size: 20px;
+   height: 30px;
+   width: 100px;
+   margin-top: 20px;
+   outline: 0px;
+   margin: 20px;
+   margin-left: 40%;
+   border-radius: 5px;
+}
+
+.boton{
+   border: 0px;
+   background-color: #f6eec7;
+   font-size: 20px;
+   height: 30px;
+   width: 100px;
+   outline: 0px;
+   margin-left: 40%;
+   margin-top: 20px;
+}
+.final{
+   display: flex;
+   justify-content: space-around; 
+}
+#mensaje1{
+   font-size: 50px;
+   color: #131313;
+   margin-top: 40px;
  
+   font-weight: 900;
+   
+}
+#mensaje2{
+   text-transform: uppercase;
+   font-size: 60px;
+   color: #a5dee5;
+   margin-top: 20px;
+  }
+#mensaje3{
+   font-size: 20px;
+   color: #616161;
+   margin-top: 20px;
+}
+#mensaje4{
+   font-size: 30px;
+   color: #24afc2;
+   margin-top: 20px;
+   margin: 20px;
+}
+/*tarjeta*/
+#fondodetarjeta{
+   height: 200px;
+   width: 400px;
+   color: lightcoral;
+}
+#tarjetaimagen {
+   position: absolute;
+   height: 300px;
+   width: 230px;
+   margin-top: 70px;
+   margin-left: 800px;
+   border-radius: 20px;
+   z-index: 2;
+   display: none;
+
+}
+#mensajealert{
+   color: red;
+}
+#mensajealert1{
+   color: red;
+}
+#tarjetainvalida{
+   color: red;
+}
+/*redes sociales*/
+
+#redes{
+   height: 50px;
+   width: 1500px;
+   background-color: #ffd5e5;
+}
+#facebook{
+   height: 40px;
+   width: 40px;
+   margin-left: 0px;
+   margin-top: 5px;
+}
+#instagram{
+   height: 40px;
+   width: 40px;
+   margin-top: 5px;
+}
+#whatsapp{
+   height: 45px;
+   width: 45px;
+   position: absolute;
+   margin-top: 5px;
+}
+
+
  p50{
    font-family: cursive;
    font-size: 100%;
@@ -22,18 +374,13 @@
  
  }
  
- #botondebusqueda{
-   color: rebeccapurple;
-   background: honeydew;
-   padding: 10px;
-   margin-left: 50%;
-   border: 1px;
-   position: center ;
-   align-items: flex-start ;
- 
- }
- #logoempresa{
-    padding-inline-start: 5%;
-    width: 20%; 
-    height: 100%;
+
+p{
+   font-size: 30px;
+   font-weight: bold;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(161, 36, 141);
+   margin-left: 5%;
 }
+
+
