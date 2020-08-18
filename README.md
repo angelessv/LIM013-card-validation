@@ -1,5 +1,56 @@
+
+
+
+
+
 # Tarjeta de crédito válida
-nmp  
+
+##Índice
+
+* [1. Resumen del proyecto]
+* [2. Manual de Uso]
+* [3. Procedimiento]
+* [4. Herramientas usadas]
+* [5. Fuentes]
+* [6. Anexos ,testing]
+
+## 1. Resumen del proyecto
+
+## 2. Manual de Uso
+Pueden ingresaR por el navegador , ingresan a la tienda virtual , eligen y posteriormente realizan el pago de su compra via virtual.
+## 3. Procedimiento
+### 3.1 Publico objetivo
+Esta pagina web esta creada para que todas las personas a nivel nacional puedan realizar sus compras de utensilios y insumos de pasteleria, y puedan recibirlo en su domicilio.
+### 3.2 Prototipo
+Realize un investigacion rapida de como se veian visualmente y su funcionamiento de las paginas mas conocidas con similar enfoque y rubro. En base a ese analisis realize un prototipo.
+
+![prototipo](https://i.ibb.co/VNC2Q51/Whats-App-Image-2020-08-18-at-8-08-38-AM.jpg)
+![prototipo1](https://i.ibb.co/SXPMT8x/Whats-App-Image-2020-08-18-at-8-08-38-AM-1.jpg)
+
+ ### 3.2 Prototipo FeedBack
+
+Consulte con algunos potenciales clientes y cou y me indicaron que se le parecia bien , asi que realize un prototipo final.
+
+![prototipo](https://i.ibb.co/MnJr8sW/proceso-de-compra.jpg)
+
+## 4. Herramientas usadas
+
+ Las herramientas usadas en este proyecto son:
+ -HTML
+ -CSS
+ -JAVASCRIPT
+ -GIT
+ -GITHUB
+
+## 5. Fuentes
+Las fuentes usadas en este proyecto son:
+-https://developer.mozilla.org/
+-https://lms.laboratoria.la/
+-/www.mclibre.org
+
+
+*************************************************************************************
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
